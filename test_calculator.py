@@ -12,4 +12,4 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(32, self.calculator.add(12, 20), 'Addition failed')
 
     def test_multiplication(self):
-        self.assertEqual(4, self.calculator.multiply(2, 2), 'Multiplication failed')
+        self.assertEqual(4, self.calculator.multiply(2, 5), 'Multiplication failed')
